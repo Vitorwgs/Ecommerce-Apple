@@ -49,17 +49,14 @@ header{
 .nav-link-apple{
     width: 1.6rem;
     height: 4.4rem;
-    background: url("../../images/icons/apple.svg") center no-repeat;
 }
 .nav-link-search{
     width: 1.6rem;
     height: 4.4rem;
-    background: url("../../images/icons/search.svg") center no-repeat;
 }
 .nav-link-bag{
     width: 1.6rem;
     height: 4.4rem;
-    background: url("../../images/icons/bag.svg") center no-repeat;
 }
 
 /*regra para aplicativos mobile, não criei ainda no index, mas achei interessante a ideia*/
