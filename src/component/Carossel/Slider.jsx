@@ -1,7 +1,7 @@
 import React from 'react'
 import "../Carossel/Carossel.module.css"
 import Carousel from "react-multi-carousel";
-import "react-multi-carousel/lib/styles.css";
+
 
 const sliderImageUrl = [
   {

@@ -1,17 +1,13 @@
 import Header from "./component/Header";
-import Banner from "./component/Banner";
-import Container from "./component/Carossel";
-import Card from "./component/Card";
 import Footer from "./component/Footer";
+import Slider from "./component/Carossel/Slider";
 
 
 function App() {
   return (
     <>
     <Header/>
-      <Banner/>
-      <Container/>
-      <Card/>
+      
     <Footer/>
     </>
   );
