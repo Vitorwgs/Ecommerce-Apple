@@ -1,5 +1,8 @@
 import React, { useState } from 'react';
 import styles from "./Footer.module.css";
+import facebook from "../../Images/icons/facebook.png";
+import twitter from "../../Images/icons/twitter.png";
+import instagram from "../../Images/icons/instagram.png"; 
 
 function Footer() {
 
@@ -30,9 +33,9 @@ function Footer() {
             <div className={styles.section}>
                 <h4>Conecte-se conosco</h4>
                 <div className={styles.socialIcons}>
-                    <a href="#"><img src="/Images/icons/facebook.png"/></a>
-                    <a href="#"><img src="/Images/icons/twitter.png"/></a>
-                    <a href="#"><img src="/Images/icons/instagram.png"/></a>
+                    <a href="#"><img src={facebook}/></a>
+                    <a href="#"><img src={twitter}/></a>
+                    <a href="#"><img src={instagram}/></a>
                 </div>
             </div>
         </div>

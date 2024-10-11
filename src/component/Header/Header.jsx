@@ -1,5 +1,8 @@
 import React, { useState } from 'react';
 import styles from "./Header.module.css";
+import search from "../../Images/icons/search.png";
+import bag from "../../Images/icons/bag.png";
+import logoapple from "../../Images/icons/apple.png";
 
 function Header() {
     const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
@@ -12,7 +15,7 @@ function Header() {
     
             <header className={styles.header}>
             <div className={styles.logo}>
-                <img src="/Images/icons/apple.png"/>
+                <img src={logoapple}/>
             </div>
             <nav className={`${styles.nav} ${isMobileMenuOpen ? styles.active : ''}`}>
                 <a href="#">Mac</a>
@@ -24,10 +27,10 @@ function Header() {
                 <a href="#">Support</a>
             </nav>
             <div className={styles.icons}>
-                <img src="/Images/icons/search.png"/>
-                <img src="/Images/icons/bag.png"/>
+                <img src={search}/>
+                <img src={bag}/>
                 <button className={styles.mobileMenuButton} onClick={toggleMobileMenu}>
-                    <img src="/Images/icons/menu.png"/>
+                    <img src=""/>
                 </button>
             </div>
         </header>

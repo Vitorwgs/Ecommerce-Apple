@@ -36,6 +36,7 @@ html {
 
 .logo img {
     max-height: 40px;
+    mix-blend-mode: multiply;
 }
 
 .icons {
@@ -47,6 +48,8 @@ html {
     max-height: 25px;
     margin-left: 1rem;
     cursor: pointer;
+    mix-blend-mode: multiply;
+    color: #fff;
 }
 
 nav {
